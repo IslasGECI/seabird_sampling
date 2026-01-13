@@ -13,8 +13,8 @@ all: check coverage mutants
 		setup \
 		tests
 
-module = dummy_transformations
-codecov_token = 6c56bccb-1758-4ed9-8161-97c845591c26
+module = seabird_sampling
+codecov_token = d6367ef1-6dee-45be-b684-b7001191b75f
 
 define lint
 	pylint \
@@ -85,7 +85,7 @@ green: format
 
 refactor: format
 	pytest --verbose \
-	&& (git add ${module}/*.py tests/*.py && git commit -m "♻️  Refactor ${message}") \
+	&& (git add ${module}/*.py tests/*.py && git commit -m "♻️ Refactor ${message}") \
 	|| git restore ${module}/*.py tests/*.py
 	chmod g+w -R .
 
