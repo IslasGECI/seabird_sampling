@@ -6,13 +6,14 @@ build-backend = "flit_core.buildapi"
 author = "Ciencia de Datos • GECI"
 author-email = "ciencia.datos@islas.org.mx"
 classifiers = [ "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",]
-home-page = "https://bitbucket.org/IslasGECI/muestreo-aves-marinas-ipbc"
+home-page = "https://github.com/IslasGECI/seabird_sampling"
 requires = [
     "population-trend==5.*",
     "scikit-learn",
 ]
-module = "muestreo_aves_marinas_ipbc"
+module = "seabird_sampling"
 requires-python=">=3.10"
 
 [tool.flit.scripts]
-muestreo-aves-marinas-ipbc = "muestreo_aves_marinas_ipbc.cli:cli"
+muestreo-aves-marinas-ipbc = "seabird_sampling.cli:cli"
+seabird-sampling = "seabird_sampling.cli:cli"
