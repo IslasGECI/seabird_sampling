@@ -8,6 +8,8 @@ author-email = "ciencia.datos@islas.org.mx"
 classifiers = [ "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",]
 home-page = "https://github.com/IslasGECI/seabird_sampling"
 requires = [
+    "distdens @ git+https://git@github.com/IslasGECI/distdens.git",
+    "fastkml",
     "population-trend==5.*",
     "scikit-learn",
 ]
