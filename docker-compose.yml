@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: islasgeci/dummy_transformations:latest
+    image: islasgeci/seabird_sampling:latest
     command: bash
     volumes:
       - $PWD:/workdir
