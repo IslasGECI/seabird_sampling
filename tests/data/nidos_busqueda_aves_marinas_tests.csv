@@ -1,0 +1,71 @@
+Fecha,Hora,Isla,Sitio_o_colonia,Temporada,Especie,ID_madriguera,Nota_madriguera,Huevo,Huevo_roto,Huevo_abandonado,Huevo_eclosionado,Pollo,Pollo_muerto,Adulto,Adulto_incubando,Adulto_muerto,Condicion_de_madriguera,Latitud,Longitud,Coordenada_Este,Coordenada_Norte,Zona_UTM,Altitud,Observaciones
+20/Mar/2017,01:42:46,Guadalupe,Punta Sur,2017,Synthliboramphus hypoleucus,GM3007,Ave sola,0,0,0,0,0,0,1,0,0,ocupada,NA,NA,373737,3195955,11R,5,NA
+06/Abr/2017,10:21:13,Guadalupe,Punta Sur,2017,Synthliboramphus hypoleucus,GM3005,Huevo eclosionado,0,0,0,1,0,0,0,0,0,ocupada,NA,NA,374904,3192185,11R,125,NA
+06/Abr/2017,11:52:51,Guadalupe,Punta Sur,2017,Synthliboramphus hypoleucus,GM8006,Ave sola,0,0,0,0,0,0,1,0,0,ocupada,NA,NA,373764,3195979,11R,7,NA
+06/Abr/2017,10:18:27,Guadalupe,Punta Sur,2017,Synthliboramphus hypoleucus,GM8007,Ave sola,0,0,0,0,0,0,1,0,0,ocupada,NA,NA,373777,3195728,11R,14,NA
+21/Mar/2017,12:34:38,Guadalupe,Punta Sur,2017,Puffinus opisthomelas,GR4000,Huevo roto,0,1,0,0,0,0,0,0,0,ocupada,NA,NA,373924,3195987,11R,18,NA
+21/Mar/2017,01:02:45,Guadalupe,Punta Sur,2017,Synthliboramphus hypoleucus,GM3001,Huevo eclosionado,0,0,0,1,0,0,0,0,0,ocupada,NA,NA,374183,3195663,11R,15,NA
+21/Mar/2017,01:05:19,Guadalupe,Punta Sur,2017,Synthliboramphus hypoleucus,GM6000,Huevo eclosionado,0,0,0,1,0,0,0,0,0,ocupada,NA,NA,374174,3196062,11R,39,NA
+06/Abr/2017,12:18:15,Guadalupe,Punta Sur,2017,Synthliboramphus hypoleucus,GM3002,Huevo eclosionado,0,0,0,1,0,0,0,0,0,ocupada,NA,NA,374159,3195667,11R,16,NA
+07/Feb/2017,01:36:51,Guadalupe,Punta Sur,2017,Synthliboramphus hypoleucus,GM4004,Huevo roto,0,1,0,0,0,0,0,0,0,ocupada,NA,NA,374117,3196035,11R,40,NA
+22/Feb/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA148,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374186,3196068,11R,36,Madriguera artificial
+22/Feb/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA051,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374520,3196245,11R,90,Madriguera artificial
+01/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA178,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374260,3196084,11R,37,Madriguera artificial
+01/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA049,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374537,3196254,11R,90,Madriguera artificial
+01/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA133,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,373798,3195754,11R,8,Madriguera artificial
+01/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA158,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374223,3196087,11R,34,Madriguera artificial
+01/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA150,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374198,3196069,11R,38,Madriguera artificial
+01/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA066,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374481,3196218,11R,87,Madriguera artificial
+08/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA132,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,373798,3195752,11R,8,Madriguera artificial
+08/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA157,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374218,3196083,11R,36,Madriguera artificial
+08/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA115,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374433,3196159,11R,87,Madriguera artificial
+15/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA142,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374098,3196028,11R,34,Madriguera artificial
+15/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA153,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374207,3196079,11R,38,Madriguera artificial
+15/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA112,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374435,3196165,11R,87,Madriguera artificial
+15/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA078,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374468,3196205,11R,88,Madriguera artificial
+15/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA002,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374681,3196337,11R,104,Madriguera artificial
+23/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA120,Ave incubando,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374422,3196144,11R,87,Madriguera artificial
+25/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA041,Huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374551,3196255,11R,92,Madriguera artificial
+25/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA082,Ave incubando,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374460,3196204,11R,87,Madriguera artificial
+24/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA170x2,Huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374224,3196081,11R,38,Madriguera artificial
+25/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA188,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374041,3195692,11R,20,Madriguera artificial
+25/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA207,Ave incubando,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374046,3195693,11R,15,Madriguera artificial
+25/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA173,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374236,3196080,11R,36,Madriguera artificial
+25/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA156,Ave incubando,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374199,3196069,11R,39,Madriguera artificial
+25/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA009,Huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374655,3196315,11R,99,Madriguera artificial
+30/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA141x2,Ave incubando,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374095,3196028,11R,33,Madriguera artificial
+30/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA174,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374240,3196084,11R,36,Madriguera artificial
+30/Mar/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA149x2,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374193,3196066,11R,34,Madriguera artificial
+06/Abr/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA071,huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374475,3196215,11R,91,Madriguera artificial
+28/Abr/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA167,Huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374213,3196079,11R,35,Madriguera artificial
+25/May/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA082x2,Huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374460,3196204,11R,87,Madriguera artificial
+22/Jun/2022,NA,Guadalupe,Punta Sur,2022,Synthliboramphus hypoleucus,MA180,Huevo eclosionado,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374270,3196100,11R,43,Madriguera artificial
+14/Jul/2020,14:50:40,Guadalupe,Punta Sur,2020,Synthliboramphus hypoleucus,M243,Huevo(s) eclosionado(s),1,0,0,1,0,0,0,0,0,ocupada,NA,NA,374005,3195692,11R,8,NA
+12/Abr/2020,16:25:44,Guadalupe,Zapato,2020,Puffinus opisthomelas,ZR4000,Ave incubando,1,NA,NA,NA,NA,NA,NA,1,NA,ocupada,NA,NA,374612,3192171,11R,44,Muy expuesto
+13/Abr/2020,09:04:40,Guadalupe,Zapato,2020,Puffinus opisthomelas,ZR2004,Ave incubando,1,NA,NA,NA,NA,NA,NA,1,NA,ocupada,NA,NA,374790,3192167,11R,67,Madriguera de difícil acceso pero ave muy visible
+13/Abr/2020,09:26:55,Guadalupe,Zapato,2020,Puffinus opisthomelas,ZR2005,Ave incubando,1,NA,NA,NA,NA,NA,NA,1,NA,ocupada,NA,NA,374787,3192168,11R,59,Acceso complicado a madriguera
+13/Abr/2020,12:04:22,Guadalupe,Zapato,2020,Puffinus opisthomelas,ZR2012,Ave incubando,1,NA,NA,NA,NA,NA,NA,1,NA,ocupada,NA,NA,374823,3192096,11R,58,Poco visible detrás de una roca
+13/Abr/2020,16:33:34,Guadalupe,Zapato,2020,Puffinus opisthomelas,ZR4020,Ave incubando,1,NA,NA,NA,NA,NA,NA,1,NA,ocupada,NA,NA,374826,3191963,11R,73,Debajo de Eriogonium zapatoense
+13/Abr/2020,16:45:11,Guadalupe,Zapato,2020,Puffinus opisthomelas,ZR5023,Ave incubando,1,NA,NA,NA,NA,NA,NA,1,NA,ocupada,NA,NA,374585,3192080,11R,41,NA
+13/Abr/2020,17:06:40,Guadalupe,Zapato,2020,Puffinus opisthomelas,ZR5024,Ave incubando,1,NA,NA,NA,NA,NA,NA,1,NA,ocupada,NA,NA,374586,3192086,11R,43,NA
+26/Jun/2020,NA,Guadalupe,Zapato,2020,Puffinus opisthomelas,ZR1007,Pollo solo,NA,NA,NA,NA,1,NA,NA,NA,NA,ocupada,NA,NA,374819,3192091,11R,NA,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 114,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374271,3198298,11R,34,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 115,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374264,3198341,11R,36,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 116,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374259,3198356,11R,37,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 117,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374253,3198382,11R,33,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 118,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374251,3198388,11R,33,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 119,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374250,3198386,11R,32,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 120,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374246,3198386,11R,33,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 121,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374256,3198394,11R,33,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 122,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374264,3198388,11R,34,NA
+28/Feb/2018,NA,Guadalupe,Morro Prieto,2017-2018,Phoebastria immutabilis,MLAAL 123,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374265,3198385,11R,35,NA
+28/Feb/2018,NA,Guadalupe,Roca Vapor,2017-2018,Phoebastria immutabilis,Roca 123,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,366988,3216794,11R,35,NA
+09/Mar/2018,10:31:16,Guadalupe,Isla principal-Dentro cerco,2018,Synthliboramphus hypoleucus,M281,Ave incubando,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374143,3196031,11R,35,NA
+09/Mar/2018,10:06:21,Guadalupe,Isla principal-Dentro cerco,2018,Synthliboramphus hypoleucus,M295,Huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374190,3196063,11R,31,NA
+09/Mar/2018,09:54:32,Guadalupe,Isla principal-Dentro cerco,2018,Synthliboramphus hypoleucus,M795,Huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374191,3196067,11R,36,NA
+10/Mar/2018,10:01:42,Guadalupe,Isla principal-Dentro cerco,2018,Synthliboramphus hypoleucus,M270,Huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374089,3196035,11R,37,NA
+10/Mar/2018,10:46:53,Guadalupe,Isla principal-Dentro cerco,2018,Synthliboramphus hypoleucus,M237,Huevo eclosionado,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,373906,3195957,11R,27,NA
+08/Mar/2018,10:36:07,Guadalupe,Isla principal-Dentro cerco,2018,Synthliboramphus hypoleucus,M950,Huevo solo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374057,3195695,11R,33,NA
+08/Mar/2018,10:56:58,Guadalupe,Isla principal-Dentro cerco,2018,Synthliboramphus hypoleucus,M066,Huevo eclosionado,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374078,3195691,11R,50,NA
+08/Mar/2018,11:03:32,Guadalupe,Isla principal-Dentro cerco,2018,Synthliboramphus hypoleucus,M067,Ave incubando,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374076,3195706,11R,33,NA
+08/Mar/2018,11:03:32,Socorro,Socorro,2017-2018,Phoebastria immutabilis,M067,Ave incubando,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,374076,3195706,11R,33,NA
