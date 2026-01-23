@@ -33,3 +33,7 @@ module = [
     "utm",
 ]
 ignore_missing_imports = true
+
+[tool.mutmut]
+paths_to_mutate = [ "seabird_sampling/" ]
+
