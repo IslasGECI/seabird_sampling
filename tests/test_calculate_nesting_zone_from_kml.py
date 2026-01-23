@@ -7,7 +7,6 @@ from seabird_sampling.calculate_nesting_zone_from_kml import (
 import numpy as np
 from pytest import approx
 
-
 kml_file = "tests/data/area_colonia_mergulo_zapato.kml"
 kml_features = read_kml_features(kml_file)
 

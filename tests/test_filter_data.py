@@ -6,7 +6,6 @@ from seabird_sampling.filter_data import (
 
 import pandas as pd
 
-
 burrows_data = pd.DataFrame(
     {
         "Sitio_o_colonia": [
