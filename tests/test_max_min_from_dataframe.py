@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from muestreo_aves_marinas_ipbc.max_min_from_dataframe import (
+from seabird_sampling.max_min_from_dataframe import (
     max_min_from_dataframe,
     combine_error_bars,
 )

@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc import (
+from seabird_sampling.plot_error_bar import (
     get_table_salida,
     make_sure_folder_exists,
     plot_breeding_pairs_with_error_bars,

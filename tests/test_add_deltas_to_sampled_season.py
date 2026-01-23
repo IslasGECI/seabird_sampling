@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc.add_deltas_to_sampled_season import (
+from seabird_sampling.add_deltas_to_sampled_season import (
     add_intervals_to_sampled_season,
     add_percentage_error,
     calculate_percentage_error,

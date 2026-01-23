@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc.density_maps_tools import initilizate_map_plot
+from seabird_sampling.density_maps_tools import initilizate_map_plot
 from geoambiental.io import import_coast_line
 
 

@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc import cli
+from seabird_sampling.cli import cli
 from geci_test_tools import if_exist_remove, assert_exist
 from typer.testing import CliRunner
 

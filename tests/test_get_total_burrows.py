@@ -1,5 +1,5 @@
 import pandas as pd
-from muestreo_aves_marinas_ipbc import (
+from seabird_sampling.total_burrows import (
     get_total_burrows,
     get_cantidad_nidos,
     concatenate_colonies,

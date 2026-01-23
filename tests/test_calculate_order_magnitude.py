@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc import calculate_order_magnitude, round_by_order
+from seabird_sampling.calculate_order_magnitude import calculate_order_magnitude, round_by_order
 
 import numpy as np
 

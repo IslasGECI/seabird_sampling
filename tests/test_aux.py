@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc import GeciCliOptions
+from seabird_sampling.aux import GeciCliOptions
 
 islet = "Zapato"
 species = "Puffinus opisthomelas"

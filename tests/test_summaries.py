@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc import Summary_Constructor
+from seabird_sampling.summaries import Summary_Constructor
 
 import pandas as pd
 

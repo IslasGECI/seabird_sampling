@@ -1,11 +1,11 @@
 import pytest
-import src.plot_burrows_density_map as pdm
+from seabird_sampling.plot_burrows_density_map import set_plot, choose_coast_line
 import numpy as np
 
 
 @pytest.mark.mpl_image_compare(tolerance=0)
 def test_set_plot():
-    figure = pdm.set_plot()
+    figure = set_plot()
     return figure
 
 
@@ -16,7 +16,7 @@ def test_choose_coast_line():
     expected_linea_costa_islote = linea_costa[1]
     expected_margen_superior_isla = 70
 
-    obtained_linea_costa_islote, obtained_margen_superior_isla = pdm.choose_coast_line(
+    obtained_linea_costa_islote, obtained_margen_superior_isla = choose_coast_line(
         islet, linea_costa
     )
 
@@ -33,7 +33,7 @@ def test_choose_coast_line():
     expected_linea_costa_islote = linea_costa[12]
     expected_margen_superior_isla = 100
 
-    obtained_linea_costa_islote, obtained_margen_superior_isla = pdm.choose_coast_line(
+    obtained_linea_costa_islote, obtained_margen_superior_isla = choose_coast_line(
         islet, linea_costa
     )
 

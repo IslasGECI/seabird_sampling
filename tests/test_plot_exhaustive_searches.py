@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc import plot_exhaustive_searches
+from seabird_sampling.plot_exhaustive_searches import plot_exhaustive_searches
 
 import pandas as pd
 import os

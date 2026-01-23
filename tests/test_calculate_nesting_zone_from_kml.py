@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc import (
+from seabird_sampling.calculate_nesting_zone_from_kml import (
     get_latitude_from_kml,
     get_longitude_from_kml,
     read_kml_features,

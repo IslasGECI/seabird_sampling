@@ -1,6 +1,6 @@
 import numpy as np
 import unittest
-from muestreo_aves_marinas_ipbc import get_effort
+from seabird_sampling.get_effort import get_effort
 
 
 class Test_get_effort(unittest.TestCase):

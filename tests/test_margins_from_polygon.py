@@ -1,5 +1,5 @@
 from geoambiental.io import import_coast_line
-from muestreo_aves_marinas_ipbc.density_maps_tools import margins_from_polygon
+from seabird_sampling.density_maps_tools import margins_from_polygon
 
 import numpy as np
 

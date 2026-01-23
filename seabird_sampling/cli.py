@@ -2,9 +2,9 @@ import typer
 import pandas as pd
 from .filter_data import count_total_burrows_per_season
 from .total_burrows import concatenate_main_islet_colonies, get_total_burrows
-from muestreo_aves_marinas_ipbc.aux import GeciCliOptions
-from muestreo_aves_marinas_ipbc.Burrows_in_Islets import ConcreteBurrowsFactory
-from muestreo_aves_marinas_ipbc.Plotter_Burrows import Plotter_Burrows
+from seabird_sampling.aux import GeciCliOptions
+from seabird_sampling.Burrows_in_Islets import ConcreteBurrowsFactory
+from seabird_sampling.Plotter_Burrows import Plotter_Burrows
 
 cli = typer.Typer()
 

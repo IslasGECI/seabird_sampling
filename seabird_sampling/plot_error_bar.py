@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc.max_min_from_dataframe import max_min_from_dataframe
+from seabird_sampling.max_min_from_dataframe import max_min_from_dataframe
 
 from geci_plots import (
     geci_plot,

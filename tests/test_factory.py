@@ -1,5 +1,5 @@
-from muestreo_aves_marinas_ipbc.Burrows_in_Islets import ConcreteBurrowsFactory
-from muestreo_aves_marinas_ipbc.Plotter_Burrows import Plotter_Burrows
+from seabird_sampling.Burrows_in_Islets import ConcreteBurrowsFactory
+from seabird_sampling.Plotter_Burrows import Plotter_Burrows
 
 import matplotlib.pyplot as plt
 

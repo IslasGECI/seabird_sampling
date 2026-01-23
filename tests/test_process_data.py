@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc.process_data import (
+from seabird_sampling.process_data import (
     join_exhaustive_and_sampling,
 )
 

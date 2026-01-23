@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc.minimum_size_sample import (
+from seabird_sampling.minimum_size_sample import (
     calculate_variation_coefficient,
     calculate_sample_size_for_an_error_of,
 )

@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc import write_error_bars_json, BurrowSeries
+from seabird_sampling.BurrowsIntervals import write_error_bars_json, BurrowSeries
 from geci_test_tools import if_exist_remove, assert_exist
 
 import json

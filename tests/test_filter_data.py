@@ -1,4 +1,4 @@
-from muestreo_aves_marinas_ipbc import (
+from seabird_sampling.filter_data import (
     count_burrows,
     count_total_burrows_per_season,
     filter_per_specie_and_colony,
