@@ -40,7 +40,7 @@ class AbstractBurrows:
         self.burrows_data.Fecha = pd.to_datetime(self.burrows_data.Fecha)
         if anio != 0:
             if self.especie == "Phoebastria immutabilis":
-                years = f"{anio-1}-{anio}"
+                years = f"{anio - 1}-{anio}"
                 self.burrows_data = self.burrows_data[self.burrows_data.Temporada == years]
             else:
                 self.burrows_data = self.burrows_data[self.burrows_data.Fecha.dt.year == anio]

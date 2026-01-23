@@ -10,8 +10,10 @@ home-page = "https://github.com/IslasGECI/seabird_sampling"
 requires = [
     "distdens @ git+https://git@github.com/IslasGECI/distdens.git",
     "fastkml",
+    "geci-test-tools",
     "population-trend==5.*",
     "scikit-learn",
+    "scikit-learn-stubs",
 ]
 module = "seabird_sampling"
 requires-python=">=3.10"
@@ -19,3 +21,15 @@ requires-python=">=3.10"
 [tool.flit.scripts]
 muestreo-aves-marinas-ipbc = "seabird_sampling.cli:cli"
 seabird-sampling = "seabird_sampling.cli:cli"
+
+[[tool.mypy.overrides]]
+module = [
+    "distdens.models",
+    "distdens",
+    "geci_plots",
+    "geci_test_tools",
+    "geoambiental.io",
+    "geoambiental",
+    "utm",
+]
+ignore_missing_imports = true

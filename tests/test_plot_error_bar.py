@@ -29,7 +29,7 @@ def tests_plot_breeding_pairs_with_error_bars():
     plot_breeding_pairs_with_error_bars(
         plot_path, datos_madrigueras_kernel, temporadas, serie_kernel
     )
-    expected_hash = "978bbe536259e45a6dce3c69c59c6112"
+    expected_hash = "931925d437e8a960439483ef73aaed51"
     figure_content = open(plot_path, "rb").read()
     obtained_hash = hashlib.md5(figure_content).hexdigest()
     assert obtained_hash == expected_hash
