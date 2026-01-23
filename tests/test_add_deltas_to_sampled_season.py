@@ -8,7 +8,6 @@ from seabird_sampling.add_deltas_to_sampled_season import (
 
 import pandas as pd
 
-
 error_bars_seasons = [2018, 2019, 2020, 2022]
 barras_error_df = pd.DataFrame(
     {
