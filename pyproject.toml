@@ -12,8 +12,9 @@ requires = [
     "fastkml",
     "geci-test-tools",
     "population-trend==5.*",
-    "scikit-learn",
     "scikit-learn-stubs",
+    "scikit-learn",
+    "scipy-stubs",
 ]
 module = "seabird_sampling"
 requires-python=">=3.10"
