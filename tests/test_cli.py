@@ -148,6 +148,14 @@ def test_cli_write_burrows_count_by_season():
     assert os.path.exists(output_path)
 
 
+def test_cli_filter_burrows_by_species_and_island():
+    result = runner.invoke(
+        cli,
+        ["filter-burrows-by-species-and-island", "--help"],
+    )
+    assert result.exit_code == 0
+
+
 def test_cli_version():
     result = runner.invoke(
         cli,
