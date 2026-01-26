@@ -18,4 +18,4 @@ def test_adapt_historical_data():
     )
     obtained = adapt_historical_data(historical_data)
     expected_column_names = ["Especie", "Sitio_o_colonia", "Temporada", "Total_nidos"]
-    assert all(obtained.columns in expected_column_names)
+    assert set(obtained.columns).issubset(expected_column_names)
