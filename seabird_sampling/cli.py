@@ -3,7 +3,10 @@ import pandas as pd
 from seabird_sampling.adapters import adapt_historical_data
 from seabird_sampling.aux import GeciCliOptions
 from seabird_sampling.Burrows_in_Islets import ConcreteBurrowsFactory
-from seabird_sampling.filter_data import count_total_burrows_per_season
+from seabird_sampling.filter_data import (
+    count_total_burrows_per_season,
+    filter_per_specie_and_colony,
+)
 from seabird_sampling.Plotter_Burrows import Plotter_Burrows
 from seabird_sampling.total_burrows import concatenate_main_islet_colonies, get_total_burrows
 
@@ -129,7 +132,8 @@ def filter_burrows_by_species_and_island(
 ):
     data_df = pd.read_csv(data_path)
     data_adapted_df = adapt_historical_data(data_df)
-    data_adapted_df.to_csv(output_path)
+    filtered_df = filter_per_specie_and_colony(data_adapted_df, species, colony)
+    filtered_df.to_csv(output_path)
 
 
 @cli.command(help="ayuda version")
