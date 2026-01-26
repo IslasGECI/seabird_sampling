@@ -12,7 +12,11 @@ from .density_maps_tools import *  # noqa
 from .filter_data import *  # noqa
 from .get_effort import *  # noqa
 from .max_min_from_dataframe import *  # noqa
-from .plot_error_bar import plot_breeding_pairs_with_error_bars, get_table_salida, plot_error_bars  # noqa
+from .plot_error_bar import (  # noqa
+    plot_breeding_pairs_with_error_bars,
+    get_table_salida,
+    plot_error_bars,
+)
 from .plot_exhaustive_searches import plot_exhaustive_searches  # noqa
 from .Plotter_Burrows import Plotter_Burrows  # noqa
 from .process_data import *  # noqa
