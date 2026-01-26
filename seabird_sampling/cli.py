@@ -138,4 +138,4 @@ def write_historical_burrows_by_species_and_island(
 
 @cli.command(help="ayuda version")
 def version():
-    print("0.1.0")
+    print("0.5.0")
