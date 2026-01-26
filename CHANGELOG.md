@@ -6,18 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-
-## [0.4.1] - 2024-04-31
-
 ### Added
 
 ### Fixed
 
 ### Changed
-- Fix repo path
-- Update actions
 
 ### Removed
+
+## [0.5.0] - 2026-01-26
+### Added
+- CLI command `write-historical-burrows-by-species-and-island`
+
+## [0.4.1] - 2024-04-31
+
+### Changed
+- Fix repo path
+- Update actions
 
 ## [0.4.0] - 2023-08-31
 
