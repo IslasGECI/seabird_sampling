@@ -154,6 +154,23 @@ def test_cli_filter_burrows_by_species_and_island():
         ["filter-burrows-by-species-and-island", "--help"],
     )
     assert result.exit_code == 0
+    output_path = "tests/data/historical_data.csv"
+    result = runner.invoke(
+        cli,
+        [
+            "filter-burrows-by-species-and-island",
+            "--data-path",
+            "tests/data/parejas_aves_marinas.csv",
+            "--species",
+            "Phoebastria immutabilis",
+            "--colony",
+            "Guadalupe",
+            "--output-path",
+            output_path,
+        ],
+    )
+    assert result.exit_code == 0
+    assert os.path.exists(output_path)
 
 
 def test_cli_version():
