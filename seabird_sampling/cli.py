@@ -133,7 +133,7 @@ def filter_burrows_by_species_and_island(
     data_df = pd.read_csv(data_path)
     data_adapted_df = adapt_historical_data(data_df)
     filtered_df = filter_per_specie_and_colony(data_adapted_df, species, colony)
-    filtered_df.to_csv(output_path)
+    filtered_df.loc[:, ["Temporada", "Total_nidos"]].to_csv(output_path, index=False)
 
 
 @cli.command(help="ayuda version")

@@ -176,7 +176,7 @@ def test_cli_filter_burrows_by_species_and_island():
     expected_len = 20
     assert len(obtained) == expected_len
     expected_columns = ["Temporada", "Total_nidos"]
-    assert obtained.columns.values == expected_columns
+    assert all(obtained.columns.values == expected_columns)
 
 
 def test_cli_version():
