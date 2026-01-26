@@ -119,6 +119,16 @@ def write_burrows_count_by_season(
     total_burrows_df.to_csv(output_path)
 
 
+@cli.command()
+def filter_burrows_by_species_and_island(
+    data_path: str = typer.Option("", help="Burrows data path"),
+    species: str = typer.Option("", help="Species to count"),
+    colony: str = typer.Option("", help="Colony to count"),
+    output_path: str = typer.Option("", help="Output path"),
+):
+    pass
+
+
 @cli.command(help="ayuda version")
 def version():
     print("0.1.0")
