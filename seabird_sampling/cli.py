@@ -124,7 +124,7 @@ def write_burrows_count_by_season(
 
 
 @cli.command()
-def filter_burrows_by_species_and_island(
+def write_historical_burrows_by_species_and_island(
     data_path: str = typer.Option("", help="Burrows data path"),
     species: str = typer.Option("", help="Species to count"),
     colony: str = typer.Option("", help="Colony to count"),
