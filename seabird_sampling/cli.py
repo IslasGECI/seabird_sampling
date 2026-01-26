@@ -1,10 +1,11 @@
 import typer
 import pandas as pd
-from .filter_data import count_total_burrows_per_season
-from .total_burrows import concatenate_main_islet_colonies, get_total_burrows
+from seabird_sampling.adapters import adapt_historical_data
 from seabird_sampling.aux import GeciCliOptions
 from seabird_sampling.Burrows_in_Islets import ConcreteBurrowsFactory
+from seabird_sampling.filter_data import count_total_burrows_per_season
 from seabird_sampling.Plotter_Burrows import Plotter_Burrows
+from seabird_sampling.total_burrows import concatenate_main_islet_colonies, get_total_burrows
 
 cli = typer.Typer()
 
@@ -126,7 +127,9 @@ def filter_burrows_by_species_and_island(
     colony: str = typer.Option("", help="Colony to count"),
     output_path: str = typer.Option("", help="Output path"),
 ):
-    pass
+    data_df = pd.read_csv(data_path)
+    data_adapted_df = adapt_historical_data(data_df)
+    data_adapted_df.to_csv(output_path)
 
 
 @cli.command(help="ayuda version")
