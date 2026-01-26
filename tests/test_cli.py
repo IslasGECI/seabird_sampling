@@ -3,6 +3,7 @@ from geci_test_tools import if_exist_remove, assert_exist
 from typer.testing import CliRunner
 
 import os
+import pandas as pd
 
 runner = CliRunner()
 
@@ -171,6 +172,9 @@ def test_cli_filter_burrows_by_species_and_island():
     )
     assert result.exit_code == 0
     assert os.path.exists(output_path)
+    obtained = pd.read_csv(output_path)
+    expected_len = 20
+    assert len(obtained) == expected_len
 
 
 def test_cli_version():
