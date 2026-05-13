@@ -11,7 +11,6 @@ requires = [
     "distdens @ git+https://git@github.com/IslasGECI/distdens.git",
     "fastkml",
     "geci-test-tools",
-    "population-trend==5.*",
     "scikit-learn-stubs",
     "scikit-learn",
     "scipy-stubs",
