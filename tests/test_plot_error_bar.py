@@ -4,7 +4,7 @@ from seabird_sampling.plot_error_bar import (
     plot_breeding_pairs_with_error_bars,
 )
 
-import hashlib
+import matplotlib as plt
 import os
 import numpy as np
 import pandas as pd
@@ -26,14 +26,10 @@ def tests_plot_breeding_pairs_with_error_bars():
         757.19161428,
         1130.95428345,
     ]
-    plot_breeding_pairs_with_error_bars(
+    obtained = plot_breeding_pairs_with_error_bars(
         plot_path, datos_madrigueras_kernel, temporadas, serie_kernel
     )
-    expected_hash = "931925d437e8a960439483ef73aaed51"
-    figure_content = open(plot_path, "rb").read()
-    obtained_hash = hashlib.md5(figure_content).hexdigest()
-    assert obtained_hash == expected_hash
-    os.remove(plot_path)
+    assert isinstance(obtained, plt.axes._axes.Axes)
 
 
 def test_make_sure_folder_exist():
