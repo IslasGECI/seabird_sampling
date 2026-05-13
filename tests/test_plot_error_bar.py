@@ -29,7 +29,19 @@ def tests_plot_breeding_pairs_with_error_bars():
     obtained = plot_breeding_pairs_with_error_bars(
         plot_path, datos_madrigueras_kernel, temporadas, serie_kernel
     )
+
     assert isinstance(obtained, plt.axes._axes.Axes)
+
+    obtained_y_label = obtained.get_ylabel()
+    assert obtained_y_label == "Total of breeding pairs"
+
+    obtained_number_error_bars = len(obtained.get_lines()[0].get_xdata())
+    expected_number_error_bars = len(datos_madrigueras_kernel)
+    assert obtained_number_error_bars == expected_number_error_bars
+
+    obtained_length_time_series = len(obtained.get_lines()[1].get_xdata())
+    expected_length_time_series = len(temporadas)
+    assert obtained_length_time_series == expected_length_time_series
 
 
 def test_make_sure_folder_exist():
