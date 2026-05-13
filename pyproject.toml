@@ -10,7 +10,9 @@ home-page = "https://github.com/IslasGECI/seabird_sampling"
 requires = [
     "distdens @ git+https://git@github.com/IslasGECI/distdens.git",
     "fastkml",
+    "geci_plots",
     "geci-test-tools",
+    "pandas-stubs",
     "scikit-learn-stubs",
     "scikit-learn",
     "scipy-stubs",
