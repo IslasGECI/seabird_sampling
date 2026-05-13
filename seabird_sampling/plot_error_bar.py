@@ -26,6 +26,7 @@ def plot_breeding_pairs_with_error_bars(
     add_yticks(plt, datos_madrigueras_kernel, serie_kernel, ax)
 
     plt.savefig(ruta_grafica, dpi=300)
+    return ax
 
 
 def add_yticks(plt, datos_madrigueras_kernel, serie_kernel, ax):
