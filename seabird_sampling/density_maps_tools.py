@@ -1,7 +1,7 @@
 from distdens.models import SamplingQuadrat
 from geci_plots import roundup
 from geoambiental import Map, PointArray
-from matplotlib import cm
+import matplotlib as mpl
 from matplotlib.colors import ListedColormap
 from scipy.interpolate import griddata
 
@@ -41,7 +41,7 @@ def set_density_colorbar(density_array, contour_plot, label_size=20):
 
 
 def adjust_colormap():
-    hot = cm.get_cmap("hot_r", 256)
+    hot = mpl.colormaps["hot_r"].resampled(256)
     newcolors = hot(np.linspace(0, 1, 256))
     newcolors[:8, 2] = 0.8984375
     newcolors[:68, 1] = 0.9765625
