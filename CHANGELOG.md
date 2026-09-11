@@ -14,6 +14,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
+## [0.5.1] - 2026-09-11
+### Fixed
+- Update to the newest form of `get_cmap()` from matplotlib
+
 ## [0.5.0] - 2026-01-26
 ### Added
 - CLI command `write-historical-burrows-by-species-and-island`

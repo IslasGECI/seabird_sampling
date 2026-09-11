@@ -1,6 +1,6 @@
 """A Python module for seabird sampling processing"""
 
-__version__ = "0.5.0"
+__version__ = "0.5.1"
 from .add_deltas_to_sampled_season import *  # noqa
 from .aux import *  # noqa
 from .Burrows_in_Islets import *  # noqa
