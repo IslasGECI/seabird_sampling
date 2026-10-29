@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Fixed
+- `version` command reports the installed package version instead of a hardcoded value.
 
 ### Changed
 
