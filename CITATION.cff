@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+title: "Seabird Sampling"
+version: "0.5.1"
+authors:
+  - name: "Grupo de Ecología y Conservación de Islas, A.C."
+repository-code: "https://github.com/IslasGECI/seabird_sampling"
+url: "https://github.com/IslasGECI/seabird_sampling"
+license: AGPL-3.0-only
+abstract: "Python tools to process data from seabird samplings. Turn seabird burrow and nest observations into maps and seasonal summaries."
+keywords:
+  - "Laysan albatross"
+  - "Phoebastria immutabilis"
+  - "marine protected areas"
+  - "GPS tracking"
+  - "kernel density estimation"
+  - "track2KBA"
+  - "bycatch"
+  - "Mexican Pacific"
+  - "seabird sampling"
+  - "seabird burrows"
+  - "seabird nests"
+  - "burrow density"
+  - "distribution maps"
+  - "colony surveys"
+  - "population monitoring"
+  - "quadrant sampling"
+  - "exhaustive search"
+  - "Guadalupe Island"
+  - "island conservation"
+  - "conservation science"
+  - "Python"
+  - "data processing"
+date-released: 2026-09-11
