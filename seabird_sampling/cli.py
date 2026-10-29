@@ -1,5 +1,6 @@
 import typer
 import pandas as pd
+from seabird_sampling import __version__
 from seabird_sampling.adapters import adapt_historical_data
 from seabird_sampling.aux import GeciCliOptions
 from seabird_sampling.Burrows_in_Islets import ConcreteBurrowsFactory
@@ -25,6 +26,12 @@ def plot_distribution_map(
     points_option: str = typer.Option(default='{"Show Points": "Yes"}'),
     output_path: str = typer.Option(),
 ):
+    """Plot a distribution map for a species, islet, and season.
+
+    Reads burrow data, computes its kernel density, and saves a map that also
+    shows the coastline, sea, and wind rose. Points may be included or hidden
+    through ``points_option``.
+    """
     paths = GeciCliOptions(
         data_path,
         input_data_type,
@@ -62,6 +69,12 @@ def plot_density_map(
     points_option: str = typer.Option(default='{"Show Points": "No"}'),
     output_path: str = typer.Option(),
 ):
+    """Plot a burrow density map for a species, islet, and season.
+
+    Reads burrow data, computes its kernel density, and saves a density map
+    with the coastline and sea. Points are hidden by default through
+    ``points_option``.
+    """
     paths = GeciCliOptions(
         data_path,
         input_data_type,
@@ -93,6 +106,11 @@ def concatenate_burrows_by_season(
     second_colony_path: str = typer.Option("", help="Second colony data path"),
     output_path: str = typer.Option("", help="Output path"),
 ):
+    """Concatenate two colony datasets into one CSV file.
+
+    Combines the main-islet colony data from ``first_colony_path`` and
+    ``second_colony_path`` and writes the result to ``output_path``.
+    """
     first_colony_df = pd.read_csv(first_colony_path)
     second_colony_df = pd.read_csv(second_colony_path)
     concatenated_colonies = concatenate_main_islet_colonies(first_colony_df, second_colony_df)
@@ -105,6 +123,12 @@ def concatenate_burrows_by_season_to_cantidad_nidos(
     second_colony_path: str = typer.Option("", help="Second colony data path"),
     output_path: str = typer.Option("", help="Output path"),
 ):
+    """Concatenate two colony datasets using the total-burrow format.
+
+    Combines the colony data from ``first_colony_path`` and
+    ``second_colony_path``, converts it to the total-burrow format, and writes
+    the result to ``output_path``.
+    """
     first_colony_df = pd.read_csv(first_colony_path)
     second_colony_df = pd.read_csv(second_colony_path)
     concatenated_colonies = get_total_burrows(first_colony_df, second_colony_df)
@@ -118,6 +142,11 @@ def write_burrows_count_by_season(
     colony: str = typer.Option("", help="Colony to count"),
     output_path: str = typer.Option("", help="Output path"),
 ):
+    """Write the total burrow count per season for a species and colony.
+
+    Reads burrow data from ``data_path``, counts burrows for the requested
+    ``species`` and ``colony``, and writes the result to ``output_path``.
+    """
     burrows_data = pd.read_csv(data_path)
     total_burrows_df = count_total_burrows_per_season(burrows_data, species, colony)
     total_burrows_df.to_csv(output_path)
@@ -130,6 +159,12 @@ def write_historical_burrows_by_species_and_island(
     colony: str = typer.Option("", help="Colony to count"),
     output_path: str = typer.Option("", help="Output path"),
 ):
+    """Write historical burrow counts filtered by species and colony.
+
+    Adapts the historical data in ``data_path``, filters it by ``species`` and
+    ``colony``, and writes the season and total-nest columns to
+    ``output_path``.
+    """
     data_df = pd.read_csv(data_path)
     data_adapted_df = adapt_historical_data(data_df)
     filtered_df = filter_per_specie_and_colony(data_adapted_df, species, colony)
@@ -138,4 +173,5 @@ def write_historical_burrows_by_species_and_island(
 
 @cli.command(help="ayuda version")
 def version():
-    print("0.5.0")
+    """Print the package version."""
+    print(__version__)
