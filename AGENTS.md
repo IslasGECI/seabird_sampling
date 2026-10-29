@@ -4,7 +4,8 @@
 
 The public interface is the CLI commands registered on `seabird_sampling.cli.cli`
 and exposed as `seabird-sampling` and `muestreo-aves-marinas-ipbc` through
-`[tool.flit.scripts]` in `pyproject.toml`. Treat internal package functions as
+`[tool.flit.scripts]` in `pyproject.toml`, plus the Python symbols imported from
+`seabird_sampling` by the test suite. Treat other internal helpers as
 developer-only unless the interface definition changes.
 
 ## Developer commands
