@@ -1,0 +1,44 @@
+{
+  "title": "Seabird Sampling",
+  "version": "0.5.1",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "AGPL-3.0-only",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Grupo de Ecología y Conservación de Islas, A.C."
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Villasante-Barahona, Mario",
+      "affiliation": "Grupo de Ecología y Conservación de Islas, A.C.",
+      "orcid": "0009-0001-7867-8570",
+      "type": "Other"
+    },
+    {
+      "name": "Olvera-Guerrero, Guillermo",
+      "affiliation": "Grupo de Ecología y Conservación de Islas, A.C.",
+      "orcid": "0000-0002-6900-5315",
+      "type": "Other"
+    }
+  ],
+  "description": "Python tools to process data from seabird samplings. Turn seabird burrow and nest observations into maps and seasonal summaries.",
+  "keywords": [
+    "seabird sampling",
+    "seabird burrows",
+    "seabird nests",
+    "burrow density",
+    "distribution maps",
+    "colony surveys",
+    "population monitoring",
+    "quadrant sampling",
+    "exhaustive search",
+    "Guadalupe Island",
+    "island conservation",
+    "conservation science",
+    "Python",
+    "data processing"
+  ]
+}
